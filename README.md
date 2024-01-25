@@ -2,6 +2,10 @@
 
 `npr-news-now-cli` is a command-line tool that plays the most recent NPR News Now hourly update. It's designed to provide a simple and immediate way to stay updated with the latest news from NPR.
 
+## Why?
+
+NPR publishes hourly news briefs called [NPR News Now](https://www.npr.org/podcasts/500005/npr-news-now) _The latest news in five minutes. Updated hourly._ This tool makes it easy for me to catch up on the news during a pomodoro break right from a terminal.
+
 ## Disclaimer
 
 This tool is not officially affiliated with, authorized, maintained, sponsored, or endorsed by NPR (National Public Radio) or any of its affiliates or subsidiaries. This is an independent and unofficial project. Use at your own risk. The content accessed by this tool is subject to NPR's own terms of use.
@@ -25,6 +29,14 @@ After installation, you can run the tool using the following command:
 ```bash
 npr-news-now
 ```
+
+To stop listening, use `ctrl+c` in your terminal. Otherwise it will quit when the clip is finished.
+
+## To do
+
+- The playback time is sometimes jumpy and inconsistent.
+- There's no way to pause / resume, but maybe that's okay.
+- This has only been tested on MacOS 14.2.1, so, yeah.
 
 ## License
 
