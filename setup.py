@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'npr-news-now=npr-news-now-cli.listen:main',
+            'npr-news-now=npr_news_now_cli.listen:main',
         ],
     },
     author="Alex P. Gates",

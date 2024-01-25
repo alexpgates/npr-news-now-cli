@@ -1,5 +1,5 @@
-import feedparser
 import time
+import feedparser
 import vlc
 import warnings
 
@@ -25,10 +25,14 @@ def main():
 
     try:
         while player.get_state() not in [vlc.State.Ended, vlc.State.Stopped, vlc.State.Error]:
+            loop_start_time = time.time()
             current_time = player.get_time()
             total_time = player.get_length()
             print(f"Time: {format_time(current_time)} / {format_time(total_time)}", end='\r')
-            time.sleep(1)
+
+            # Calculate the elapsed time and sleep for the remainder of 1 second
+            elapsed_time = time.time() - loop_start_time
+            time.sleep(max(1 - elapsed_time, 0))
     except KeyboardInterrupt:
         print("\nPlayback interrupted by user.")
 
