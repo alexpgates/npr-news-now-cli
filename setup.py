@@ -17,7 +17,7 @@ setup(
     description="A command-line tool to listen to the latest NPR news now hourly news update.",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url="URL to your GitHub repo or other project page",
+    url="https://github.com/alexpgates/npr-news-now-cli",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
