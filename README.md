@@ -41,3 +41,7 @@ To stop listening, use `ctrl+c` in your terminal. Otherwise it will quit when th
 ## License
 
 This project is open-source and available under the MIT License. See the LICENSE file for more information.
+
+## Get in touch
+
+Find me at [alexpgates.com](https://www.alexpgates.com). PR's are welcome and appreciated!
